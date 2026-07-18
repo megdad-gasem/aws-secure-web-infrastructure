@@ -44,22 +44,22 @@ A production-ready, highly secure AWS cloud infrastructure deployed entirely via
    cd aws-secure-web-infrastructure
 
 2. Initialize the working directory and download providers:
-  Bash
-terraform init
+  ```bash
+  terraform init
 
-Generate and review the execution plan:
+3. Generate and review the execution plan:
 
-3. Bash
-terraform plan
+ ```bash
+  terraform plan
 
-Deploy the infrastructure to your AWS account:
+4. Deploy the infrastructure to your AWS account:
 
-4. Bash
-terraform apply --auto-approve
+```bash
+  terraform apply --auto-approve
 
 Cleanup
 
 To prevent ongoing costs, destroy all provisioned cloud resources cleanly with a single command:
 
-Bash
+```bash
 terraform destroy --auto-approve
