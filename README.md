@@ -43,7 +43,7 @@ A production-ready, highly secure AWS cloud infrastructure deployed entirely via
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/MOMENGASIM/aws-secure-web-infrastructure.git
+git clone https://github.com/megdad-gasem/aws-secure-web-infrastructure.git
 cd aws-secure-web-infrastructure
 ```
 
