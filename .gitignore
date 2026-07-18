@@ -1,0 +1,20 @@
+# Local .terraform directories
+.terraform/
+
+# .tfstate files (حتكون جواها الـ Secrets حقت حسابك)
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Variables files (لو كاتب إيميلك أو باسووردات هنا)
+*.tfvars
+*.tfvars.json
+
+# Override files
+*.tf_override
+*.tf_override.json
+
+# Credentials file (ملف الـ CSV النزلته من AWS لو رميته هنا بالغلط)
+*.csv
