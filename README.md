@@ -34,32 +34,41 @@ A production-ready, highly secure AWS cloud infrastructure deployed entirely via
 ## 🚀 Deployment Guide
 
 ### Prerequisites
-* Terraform installed locally.
-* AWS CLI installed and configured with appropriate IAM credentials.
+
+- Terraform installed locally.
+- AWS CLI installed and configured with appropriate IAM credentials.
 
 ### Deployment Steps
+
 1. Clone this repository:
-   ```bash
-   git clone [https://github.com/MOMENGASIM/aws-secure-web-infrastructure.git](https://github.com/MOMENGASIM/aws-secure-web-infrastructure.git)
-   cd aws-secure-web-infrastructure
+
+```bash
+git clone https://github.com/MOMENGASIM/aws-secure-web-infrastructure.git
+cd aws-secure-web-infrastructure
+```
 
 2. Initialize the working directory and download providers:
-  ```bash
-  terraform init
+
+```bash
+terraform init
+```
 
 3. Generate and review the execution plan:
 
- ```bash
-  terraform plan
+```bash
+terraform plan
+```
 
 4. Deploy the infrastructure to your AWS account:
 
 ```bash
-  terraform apply --auto-approve
+terraform apply --auto-approve
+```
 
-Cleanup
+### Cleanup
 
-To prevent ongoing costs, destroy all provisioned cloud resources cleanly with a single command:
+To prevent ongoing costs, destroy all provisioned cloud resources:
 
 ```bash
 terraform destroy --auto-approve
+```
